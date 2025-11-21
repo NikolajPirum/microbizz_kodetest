@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Timeregistrering</title>
+		<link rel=stylesheet href="include/pink-new/jquery-ui-1.10.4.custom.css" TYPE="text/css">
+		<link rel=stylesheet href="./css/index.css" TYPE="text/css">
+		<link rel="stylesheet" href="./css/fish.css">
+
+		<link rel="icon" href="./include/pink-new/images/coffee.png">
+		
+
+</head>
+	<body>
+		<nav>
+			<img id="micro-bizz-logo"src="./include/pink-new/images/mb_logo.png" alt="microBizz_logo">
+			<img id="fishing-dog"src="./include/pink-new/images/dog_fishing.gif" alt="dog_fishing">
+		</nav>
+
+		<h1>Fang dine timer 🐟</h1>
+		<!--================================================== FISH ANIMATION ==========================================  -->
+	<div class="fish">
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+</div>
+
+	<div class="fish">
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+  		<div class="koiCoil"></div>
+</div>
+
+
+	<!-- ===================================================== FORM ====================================================== -->
+		<form method="post" action="https://plugin.microbizz.dk/kodetest/input.php" id="timeregistration_edit_form">
+		<table>
+			
+			<tr><th>Arbejdstid start:</th>		<td><input type="time" id="worktimestart" name="worktimestart"></td></tr>
+			<tr><th>Arbejdstid slut:</th>		<td><input type="time" id="worktimeend" name="worktimeend" ></td></tr>
+			<tr><th>Frokostpause start:</th>	<td><input type="time" id="lunchbreakstart" name="lunchbreakstart"></td></tr>
+			<tr><th>Frokostpause slut:</th>		<td><input type="time" id="lunchbreakend" name="lunchbreakend"></td></tr>
+		</table>
+		<input type="submit" name="Indsend registrering">
+		</form>
+
+		<footer>
+			<p>Copyright © <span>2025</span></p>
+			<a href="https://microbizz.com/en/about-microbizz">Contact US</a>
+			<a href="https://erdetfredag.dk/">Er det fredag?</a>
+		</footer>
+
+		<!-- ============================================== SCRIPTS============================================== -->
+		<script type="text/javascript" src="include/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="include/jquery-ui-1.10.4.custom.min.js"></script>
+		<script type="module" src="index.js"></script>
+	</body>
+	
+	
+</html>

@@ -1,0 +1,76 @@
+th {
+  width: 150px;
+  text-align: right;
+  padding-right: 8px;
+  color: #004d66;
+  font-weight: bold;
+}
+form {
+  background: linear-gradient(135deg, #e6f7ff 0%, #b3e5fc 100%);
+  width: 500px;
+  margin: auto;
+  padding: 40px;
+  margin-top: 100px;
+  border: 5px solid #ff4500;
+  border-radius: 15px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: linear-gradient(135deg, #ff4500, #ff6347);
+  color: white;
+  border: 2px solid #cc3700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+input[type="time"] {
+  width: 150px;
+  height: 35px;
+  font-size: 18px;
+  border: 2px solid #87ceeb;
+  border-radius: 5px;
+}
+#micro-bizz-logo{
+  width: 10; 
+  height: 80px; 
+  border-radius: 85%; 
+  position: absolute;
+  top: 40px;
+  left: 150px;
+}
+#fishing-dog{
+  flex: 1;
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  top: 25px;
+  right: 150px;
+  border-radius: 40%;
+  border: 2px solid #050505;
+
+}
+
+h1, h2 {
+  flex: 1;
+	text-align: center;
+	color: #ff4500;
+	font-size: 1.4cm;
+	margin-top: 150px;  
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    height: 5vh;
+    position: absolute;
+    left: 50px;
+    bottom: 10%;
+    align-items: baseline;
+    gap: 40px;
+  }
